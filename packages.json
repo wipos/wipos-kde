@@ -1,0 +1,90 @@
+{
+	"all": {
+		"include": {
+			"wipos": [
+				"input-remapper",
+				"libratbag-ratbagd",
+				"libxcrypt-compat",
+				"mesa-libGLU",
+				"onedrive",
+				"proton-vpn-gnome-desktop",
+				"pulseaudio-utils",
+				"python3-pip",
+				"tailscale",
+				"tlp",
+				"tmux",
+                "ublue-update",
+				"wireguard-tools",
+				"xprop",
+				"wl-clipboard",
+				"adobe-source-code-pro-fonts",
+				"cascadiacode-nerd-fonts",
+				"containerd.io",
+				"dbus-x11",
+				"docker-ce",
+				"docker-ce-cli",
+				"docker-buildx-plugin",
+				"docker-compose-plugin",
+				"edk2-ovmf",
+				"edk2-ovmf",
+				"google-droid-sans-mono-fonts",
+				"google-go-mono-fonts",
+				"ibm-plex-mono-fonts",
+				"iotop",
+				"jetbrains-mono-fonts-all",
+				"libvirt",
+				"lxc",
+				"lxd-agent",
+				"lxd",
+				"mozilla-fira-mono-fonts",
+				"p7zip-plugins",
+				"p7zip",
+				"podman-plugins",
+				"podman-tui",
+				"podmansh",
+				"powerline-fonts",
+				"powertop",
+				"qemu-char-spice",
+				"qemu-device-display-virtio-gpu",
+				"qemu-device-display-virtio-vga",
+				"qemu-device-usb-redirect",
+				"qemu-img",
+				"qemu-system-x86-core",
+				"qemu-user-binfmt",
+				"qemu-user-static",
+				"qemu",
+				"ubuntu-nerd-fonts",
+				"ubuntumono-nerd-fonts",
+				"virt-manager"
+			]
+		},
+		"exclude": {
+			"wipos": [
+				"firefox-langpacks",
+				"firefox"
+			]
+		}
+	},
+	"38": {
+		"include": {
+			"wipos": []
+		},
+		"exclude": {
+			"wipos": [
+				"podman-docker"
+			]
+		}
+	},
+	"39": {
+		"include": {
+			"wipos": [
+				"input-leap"	
+			]
+		},
+		"exclude": {
+			"wipos": [
+				"podman-docker"
+			]
+		}
+	}
+}
